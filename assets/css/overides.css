@@ -1,6 +1,46 @@
+/**
+ * Sections
+ */
+main > section {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+/**
+ * Buttons
+ */
+.btn {
+   border-radius: 26px;
+   height: 52px;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+.btn-primary {
+   background-color:  #FAB758;
+   border-color: #FAB758;
+}
+
+.input-group .btn {
+   border-radius: 5px;
+}
+
+
+
+/**
+ * Navs
+ */
 
 @media (min-width: 992px) {
    .navbar-expand-lg .navbar-collapse {
       justify-content: space-between;
    }
+}
+
+/**
+ * Cards
+ */
+.card-info {
+   border: 0;
+   box-shadow: 0 0 40px rgba(0,0,0,.1);
+   -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
 }

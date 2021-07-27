@@ -1,0 +1,9 @@
+body {
+   /* https://colorzilla.com/gradient-editor/#e52dd0+0,2989d8+53,6bc69c+100 */
+background: rgb(229,45,208); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(229,45,208,1) 0%, rgba(41,137,216,1) 53%, rgba(107,198,156,1) 100%);
+background: -webkit-linear-gradient(-45deg,  rgba(229,45,208,1) 0%,rgba(41,137,216,1) 53%,rgba(107,198,156,1) 100%); 
+background: linear-gradient(135deg,  rgba(229,45,208,1) 0%,rgba(41,137,216,1) 53%,rgba(107,198,156,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e52dd0', endColorstr='#6bc69c',GradientType=1 ); 
+   min-height: 100vh;
+}
